@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82399E8E2B5F76DE00D7345D /* POCAsleepSDKIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82399E8D2B5F76DE00D7345D /* POCAsleepSDKIOSApp.swift */; };
+		82399E902B5F76DE00D7345D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82399E8F2B5F76DE00D7345D /* ContentView.swift */; };
+		82399E922B5F76E100D7345D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82399E912B5F76E100D7345D /* Assets.xcassets */; };
+		82399E952B5F76E100D7345D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82399E942B5F76E100D7345D /* Preview Assets.xcassets */; };
+		82399E9F2B5F76E100D7345D /* POCAsleepSDKIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82399E9E2B5F76E100D7345D /* POCAsleepSDKIOSTests.swift */; };
+		82399EA92B5F76E100D7345D /* POCAsleepSDKIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82399EA82B5F76E100D7345D /* POCAsleepSDKIOSUITests.swift */; };
+		82399EAB2B5F76E100D7345D /* POCAsleepSDKIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82399EAA2B5F76E100D7345D /* POCAsleepSDKIOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82399E9B2B5F76E100D7345D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82399E822B5F76DE00D7345D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82399E892B5F76DE00D7345D;
+			remoteInfo = POCAsleepSDKIOS;
+		};
+		82399EA52B5F76E100D7345D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82399E822B5F76DE00D7345D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82399E892B5F76DE00D7345D;
+			remoteInfo = POCAsleepSDKIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82399E8A2B5F76DE00D7345D /* POCAsleepSDKIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCAsleepSDKIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82399E8D2B5F76DE00D7345D /* POCAsleepSDKIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCAsleepSDKIOSApp.swift; sourceTree = "<group>"; };
+		82399E8F2B5F76DE00D7345D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82399E912B5F76E100D7345D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82399E942B5F76E100D7345D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82399E9A2B5F76E100D7345D /* POCAsleepSDKIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCAsleepSDKIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82399E9E2B5F76E100D7345D /* POCAsleepSDKIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCAsleepSDKIOSTests.swift; sourceTree = "<group>"; };
+		82399EA42B5F76E100D7345D /* POCAsleepSDKIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCAsleepSDKIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82399EA82B5F76E100D7345D /* POCAsleepSDKIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCAsleepSDKIOSUITests.swift; sourceTree = "<group>"; };
+		82399EAA2B5F76E100D7345D /* POCAsleepSDKIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCAsleepSDKIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82399E872B5F76DE00D7345D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82399E972B5F76E100D7345D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82399EA12B5F76E100D7345D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82399E812B5F76DE00D7345D = {
+			isa = PBXGroup;
+			children = (
+				82399E8C2B5F76DE00D7345D /* POCAsleepSDKIOS */,
+				82399E9D2B5F76E100D7345D /* POCAsleepSDKIOSTests */,
+				82399EA72B5F76E100D7345D /* POCAsleepSDKIOSUITests */,
+				82399E8B2B5F76DE00D7345D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82399E8B2B5F76DE00D7345D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82399E8A2B5F76DE00D7345D /* POCAsleepSDKIOS.app */,
+				82399E9A2B5F76E100D7345D /* POCAsleepSDKIOSTests.xctest */,
+				82399EA42B5F76E100D7345D /* POCAsleepSDKIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82399E8C2B5F76DE00D7345D /* POCAsleepSDKIOS */ = {
+			isa = PBXGroup;
+			children = (
+				82399E8D2B5F76DE00D7345D /* POCAsleepSDKIOSApp.swift */,
+				82399E8F2B5F76DE00D7345D /* ContentView.swift */,
+				82399E912B5F76E100D7345D /* Assets.xcassets */,
+				82399E932B5F76E100D7345D /* Preview Content */,
+			);
+			path = POCAsleepSDKIOS;
+			sourceTree = "<group>";
+		};
+		82399E932B5F76E100D7345D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82399E942B5F76E100D7345D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82399E9D2B5F76E100D7345D /* POCAsleepSDKIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				82399E9E2B5F76E100D7345D /* POCAsleepSDKIOSTests.swift */,
+			);
+			path = POCAsleepSDKIOSTests;
+			sourceTree = "<group>";
+		};
+		82399EA72B5F76E100D7345D /* POCAsleepSDKIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82399EA82B5F76E100D7345D /* POCAsleepSDKIOSUITests.swift */,
+				82399EAA2B5F76E100D7345D /* POCAsleepSDKIOSUITestsLaunchTests.swift */,
+			);
+			path = POCAsleepSDKIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82399E892B5F76DE00D7345D /* POCAsleepSDKIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82399EAE2B5F76E100D7345D /* Build configuration list for PBXNativeTarget "POCAsleepSDKIOS" */;
+			buildPhases = (
+				82399E862B5F76DE00D7345D /* Sources */,
+				82399E872B5F76DE00D7345D /* Frameworks */,
+				82399E882B5F76DE00D7345D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POCAsleepSDKIOS;
+			productName = POCAsleepSDKIOS;
+			productReference = 82399E8A2B5F76DE00D7345D /* POCAsleepSDKIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82399E992B5F76E100D7345D /* POCAsleepSDKIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82399EB12B5F76E100D7345D /* Build configuration list for PBXNativeTarget "POCAsleepSDKIOSTests" */;
+			buildPhases = (
+				82399E962B5F76E100D7345D /* Sources */,
+				82399E972B5F76E100D7345D /* Frameworks */,
+				82399E982B5F76E100D7345D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82399E9C2B5F76E100D7345D /* PBXTargetDependency */,
+			);
+			name = POCAsleepSDKIOSTests;
+			productName = POCAsleepSDKIOSTests;
+			productReference = 82399E9A2B5F76E100D7345D /* POCAsleepSDKIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82399EA32B5F76E100D7345D /* POCAsleepSDKIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82399EB42B5F76E100D7345D /* Build configuration list for PBXNativeTarget "POCAsleepSDKIOSUITests" */;
+			buildPhases = (
+				82399EA02B5F76E100D7345D /* Sources */,
+				82399EA12B5F76E100D7345D /* Frameworks */,
+				82399EA22B5F76E100D7345D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82399EA62B5F76E100D7345D /* PBXTargetDependency */,
+			);
+			name = POCAsleepSDKIOSUITests;
+			productName = POCAsleepSDKIOSUITests;
+			productReference = 82399EA42B5F76E100D7345D /* POCAsleepSDKIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82399E822B5F76DE00D7345D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					82399E892B5F76DE00D7345D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					82399E992B5F76E100D7345D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 82399E892B5F76DE00D7345D;
+					};
+					82399EA32B5F76E100D7345D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 82399E892B5F76DE00D7345D;
+					};
+				};
+			};
+			buildConfigurationList = 82399E852B5F76DE00D7345D /* Build configuration list for PBXProject "POCAsleepSDKIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82399E812B5F76DE00D7345D;
+			productRefGroup = 82399E8B2B5F76DE00D7345D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82399E892B5F76DE00D7345D /* POCAsleepSDKIOS */,
+				82399E992B5F76E100D7345D /* POCAsleepSDKIOSTests */,
+				82399EA32B5F76E100D7345D /* POCAsleepSDKIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82399E882B5F76DE00D7345D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82399E952B5F76E100D7345D /* Preview Assets.xcassets in Resources */,
+				82399E922B5F76E100D7345D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82399E982B5F76E100D7345D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82399EA22B5F76E100D7345D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82399E862B5F76DE00D7345D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82399E902B5F76DE00D7345D /* ContentView.swift in Sources */,
+				82399E8E2B5F76DE00D7345D /* POCAsleepSDKIOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82399E962B5F76E100D7345D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82399E9F2B5F76E100D7345D /* POCAsleepSDKIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82399EA02B5F76E100D7345D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82399EAB2B5F76E100D7345D /* POCAsleepSDKIOSUITestsLaunchTests.swift in Sources */,
+				82399EA92B5F76E100D7345D /* POCAsleepSDKIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82399E9C2B5F76E100D7345D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82399E892B5F76DE00D7345D /* POCAsleepSDKIOS */;
+			targetProxy = 82399E9B2B5F76E100D7345D /* PBXContainerItemProxy */;
+		};
+		82399EA62B5F76E100D7345D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82399E892B5F76DE00D7345D /* POCAsleepSDKIOS */;
+			targetProxy = 82399EA52B5F76E100D7345D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82399EAC2B5F76E100D7345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82399EAD2B5F76E100D7345D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82399EAF2B5F76E100D7345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POCAsleepSDKIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appTest.POCAsleepSDKIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82399EB02B5F76E100D7345D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POCAsleepSDKIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appTest.POCAsleepSDKIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82399EB22B5F76E100D7345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appTest.POCAsleepSDKIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCAsleepSDKIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POCAsleepSDKIOS";
+			};
+			name = Debug;
+		};
+		82399EB32B5F76E100D7345D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appTest.POCAsleepSDKIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCAsleepSDKIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POCAsleepSDKIOS";
+			};
+			name = Release;
+		};
+		82399EB52B5F76E100D7345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appTest.POCAsleepSDKIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = POCAsleepSDKIOS;
+			};
+			name = Debug;
+		};
+		82399EB62B5F76E100D7345D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appTest.POCAsleepSDKIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = POCAsleepSDKIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82399E852B5F76DE00D7345D /* Build configuration list for PBXProject "POCAsleepSDKIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82399EAC2B5F76E100D7345D /* Debug */,
+				82399EAD2B5F76E100D7345D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82399EAE2B5F76E100D7345D /* Build configuration list for PBXNativeTarget "POCAsleepSDKIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82399EAF2B5F76E100D7345D /* Debug */,
+				82399EB02B5F76E100D7345D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82399EB12B5F76E100D7345D /* Build configuration list for PBXNativeTarget "POCAsleepSDKIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82399EB22B5F76E100D7345D /* Debug */,
+				82399EB32B5F76E100D7345D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82399EB42B5F76E100D7345D /* Build configuration list for PBXNativeTarget "POCAsleepSDKIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82399EB52B5F76E100D7345D /* Debug */,
+				82399EB62B5F76E100D7345D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82399E822B5F76DE00D7345D /* Project object */;
+}
