@@ -14,6 +14,7 @@
 		82399E9F2B5F76E100D7345D /* POCAsleepSDKIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82399E9E2B5F76E100D7345D /* POCAsleepSDKIOSTests.swift */; };
 		82399EA92B5F76E100D7345D /* POCAsleepSDKIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82399EA82B5F76E100D7345D /* POCAsleepSDKIOSUITests.swift */; };
 		82399EAB2B5F76E100D7345D /* POCAsleepSDKIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82399EAA2B5F76E100D7345D /* POCAsleepSDKIOSUITestsLaunchTests.swift */; };
+		82399EB92B5F78C200D7345D /* AsleepSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 82399EB82B5F78C200D7345D /* AsleepSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		82399EA42B5F76E100D7345D /* POCAsleepSDKIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCAsleepSDKIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82399EA82B5F76E100D7345D /* POCAsleepSDKIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCAsleepSDKIOSUITests.swift; sourceTree = "<group>"; };
 		82399EAA2B5F76E100D7345D /* POCAsleepSDKIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCAsleepSDKIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82399EBA2B5F797C00D7345D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82399EB92B5F78C200D7345D /* AsleepSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,7 @@
 		82399E8C2B5F76DE00D7345D /* POCAsleepSDKIOS */ = {
 			isa = PBXGroup;
 			children = (
+				82399EBA2B5F797C00D7345D /* Info.plist */,
 				82399E8D2B5F76DE00D7345D /* POCAsleepSDKIOSApp.swift */,
 				82399E8F2B5F76DE00D7345D /* ContentView.swift */,
 				82399E912B5F76E100D7345D /* Assets.xcassets */,
@@ -143,6 +147,9 @@
 			dependencies = (
 			);
 			name = POCAsleepSDKIOS;
+			packageProductDependencies = (
+				82399EB82B5F78C200D7345D /* AsleepSDK */,
+			);
 			productName = POCAsleepSDKIOS;
 			productReference = 82399E8A2B5F76DE00D7345D /* POCAsleepSDKIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 82399E812B5F76DE00D7345D;
+			packageReferences = (
+				82399EB72B5F78C200D7345D /* XCRemoteSwiftPackageReference "asleep-sdk-ios" */,
+			);
 			productRefGroup = 82399E8B2B5F76DE00D7345D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -422,8 +432,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"POCAsleepSDKIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 76T6H9A9RE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = POCAsleepSDKIOS/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required for sleep measurement. The measured data is encrypted.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +463,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"POCAsleepSDKIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 76T6H9A9RE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = POCAsleepSDKIOS/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is required for sleep measurement. The measured data is encrypted.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -582,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82399EB72B5F78C200D7345D /* XCRemoteSwiftPackageReference "asleep-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/asleep-ai/asleep-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82399EB82B5F78C200D7345D /* AsleepSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82399EB72B5F78C200D7345D /* XCRemoteSwiftPackageReference "asleep-sdk-ios" */;
+			productName = AsleepSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 82399E822B5F76DE00D7345D /* Project object */;
 }
